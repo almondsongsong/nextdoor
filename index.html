@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>옆집 문이 닫히기 전에</title>
+<style>
+:root{color-scheme:dark;--bg:#17171d;--card:#23232c;--line:#ffffff20;--text:#f6f1f2;--muted:#b9b1bb;--pink:#f3a9bd}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(circle at 80% 10%,#573448 0,transparent 35%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,'Noto Sans KR',sans-serif;line-height:1.7}
+main{max-width:1080px;margin:auto;padding:72px 24px 90px}
+.eyebrow{color:var(--pink);font-size:12px;letter-spacing:.28em;font-weight:700}
+h1{font-size:clamp(38px,6vw,72px);line-height:1.2;letter-spacing:-.06em;margin:14px 0 22px}
+h2{font-size:25px;margin:0 0 18px}
+p{margin:0}
+.lead{max-width:650px;color:#ded6dc;font-size:18px}
+.hero{padding-bottom:64px;border-bottom:1px solid var(--line)}
+.pill{display:block;color:var(--pink);font-size:13px;margin-top:25px;word-spacing:5px}
+section{margin-top:58px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card,.scene{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:25px}
+.card b{color:var(--pink)}
+.card p,.desc{color:var(--muted)}
+.card h3{margin:5px 0 10px;font-size:22px}
+.tabs{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:16px}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:#292833;color:var(--text);padding:10px 18px;border-radius:99px}
+button:hover,button[aria-selected="true"]{background:var(--pink);color:#241a21}
+.scene{min-height:275px}
+.scene .num{color:var(--pink);font-size:13px;font-weight:700;letter-spacing:.12em}
+.scene h3{font-size:25px;margin:8px 0 12px}
+.quote{border-left:3px solid var(--pink);padding:10px 0 10px 18px;margin-top:20px;color:#fff}
+.note{color:var(--muted);font-size:13px;margin-top:18px}
+.visit{margin-top:48px;padding:24px;border:1px solid var(--line);border-radius:18px;background:#241f2a}
+.visit h3{margin:0 0 15px;font-size:21px}
+.visit-links{display:grid;grid-template-columns:1fr;gap:9px}
+.visit-links a{display:flex;align-items:center;justify-content:space-between;padding:12px 17px;border:1px solid #f3a9bd80;border-radius:11px;color:var(--text);text-decoration:none;font-weight:700;background:#382c39}
+.visit-links a::after{content:'↗';font-size:19px;font-weight:400}
+.visit-links a:hover,.visit-links a:focus-visible{background:var(--pink);color:#241a21}
+.recommend ol{margin:0;padding-left:24px}
+.recommend li{padding:0 0 16px 6px}
+.recommend li::marker{color:var(--pink);font-weight:700}
+.recommend li strong{color:var(--text)}
+.recommend li p{color:var(--muted);margin-top:5px}
+footer{border-top:1px solid var(--line);margin-top:65px;padding-top:25px;color:var(--muted);font-size:13px;text-align:center;line-height:1.9}
+footer strong{display:block;color:var(--text)}
+footer .copyright-title{color:var(--pink);letter-spacing:.18em;font-size:12px}
+footer .copyright-body{margin:14px 0}
+footer .credit{color:var(--pink)}
+@media(max-width:650px){
+  main{padding:45px 18px 60px}
+  .grid{grid-template-columns:1fr}
+  .card,.scene{padding:21px}
+}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="eyebrow">NEIGHBORS · REUNION · ROMANCE</div>
+    <h1>옆집 문이<br>닫히기 전에</h1>
+    <p class="lead">12년 만에 다시 만난 동네 꼬마가 스무 살이 되어 옆집에 이사 왔다.<br>문 하나 사이에서 두 사람은 서로의 현재를 새로 알아간다.</p>
+    <span class="pill">#옆집로맨스 #연상연하 #이웃사이 #설렘주의 #재회</span>
+  </header>
+
+  <section>
+    <h2>다시 만난 두 사람</h2>
+    <div class="grid">
+      <article class="card">
+        <b>THE NEIGHBOR</b>
+        <h3>한유나 · 20</h3>
+        <p>스무 살, 시각디자인과 대학생. 낮에는 강의실과 카페를 오가고 밤에는 옆집 문 앞에서 익숙한 얼굴을 마주한다. 밝게 웃으며 먼저 말을 건네지만, 어린 시절의 기억만으로 자신을 바라보는 시선 앞에서는 조금 서운해진다.</p>
+      </article>
+      <article class="card">
+        <b>YOUR ROLE</b>
+        <h3>강현욱 · 28</h3>
+        <p>스물여덟 살, 혼자 사는 직장인. 퇴근길 복도에서 낯익은 이름을 듣는다. 기억 속에서는 제 뒤를 졸졸 따르던 꼬마였는데, 이제는 바로 옆집에 사는 어른이 되어 그를 바라보고 있다.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>어떻게 만날까요?</h2>
+    <div class="tabs" role="tablist" aria-label="에피소드 선택">
+      <button role="tab" aria-selected="true" data-ep="0">EP 01 · 재회</button>
+      <button role="tab" aria-selected="false" data-ep="1">EP 02 · 문 하나 사이</button>
+      <button role="tab" aria-selected="false" data-ep="2">EP 03 · 문이 닫히기 전에</button>
+    </div>
+    <article class="scene" aria-live="polite">
+      <div class="num" id="num"></div>
+      <h3 id="title"></h3>
+      <p class="desc" id="description"></p>
+      <p class="quote" id="quote"></p>
+    </article>
+    <p class="note">각 에피소드는 독립적인 대화의 시작점입니다. 관계의 속도와 결말은 독자의 선택에 따라 달라집니다.</p>
+
+    <div class="visit">
+      <h3>한유나 주소</h3>
+      <div class="visit-links">
+        <a href="YOUR_UNICHAT_URL" target="_blank" rel="noopener noreferrer">‘유니챗’에서 만나기</a>
+        <a href="YOUR_CRACK_URL" target="_blank" rel="noopener noreferrer">‘크랙’에서 만나기</a>
+        <a href="YOUR_TIKITA_URL" target="_blank" rel="noopener noreferrer">‘티키타’에서 만나기</a>
+        <a href="YOUR_CAVEDUCK_URL" target="_blank" rel="noopener noreferrer">‘케이브덕’에서 만나기</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="recommend">
+    <h2>추천 플레이</h2>
+    <ol>
+      <li><strong>👋 낯선 옆집 여자처럼 대하기</strong><p>처음엔 못 알아본 척, 새 이웃에게 인사하듯 말을 걸어보세요.<br>유나가 먼저 옛날 이야기를 꺼내면 어떤 기억이 떠오를까요?</p></li>
+      <li><strong>😏 기억나는 척 장난치기</strong><p>유나를 알아봤지만 잠깐 모르는 척해 보는 건 어때요?<br>서운해하는 유나에게 사실 언제 알아봤는지 털어놓아 보세요.</p></li>
+      <li><strong>☕ 지금의 유나 알아가기</strong><p>옛날 얘기도 좋지만, 요즘 학교생활이나 카페 일은 어떤지 물어보세요.<br>기억 속 꼬마와는 또 다른 유나를 만날 수 있어요.</p></li>
+      <li><strong>🚪 문 앞에서 대화 이어가기</strong><p>이대로 각자 집에 들어가기 아쉽다면 한마디만 더 건네보세요.<br>오늘의 대화가 어디까지 이어질지는 당신이 정할 수 있어요.</p></li>
+    </ol>
+  </section>
+
+  <footer>
+    <strong class="copyright-title">COPYRIGHT NOTICE</strong>
+    <strong>© 2026 아몬드송송 · ALL RIGHTS RESERVED</strong>
+    <p class="copyright-body">본 작품의 세계관·캐릭터 설정·스토리·창작 요소 및<br>HTML 구조 · 레이아웃 · 디자인의<br>무단 복제, 도용, 변형 및 재배포를 금합니다.</p>
+    <p class="credit">Original Story &amp; Creative Design by 🤎⋆ ˚｡⋆୨୧아몬드송송୨୧⋆｡˚ ⋆🤎</p>
+  </footer>
+</main>
+<script>
+const episodes=[
+  {num:'EPISODE 01',title:'돌아온 옆집 여자',description:'이삿짐 상자가 놓인 복도. 유나는 현욱을 단번에 알아보지만, 그는 눈앞의 새 이웃을 선뜻 알아보지 못한다.',quote:'한유나: 현욱 오빠… 맞죠? 저 유나예요. 한유나. 설마 정말 저 기억 안 나요?'},
+  {num:'EPISODE 02',title:'문 하나 사이',description:'택배와 귀가길 인사로 익숙해진 어느 늦은 밤. 각자의 집 문 앞에서 대화가 끝날 듯 끝나지 않는다.',quote:'한유나: 저, 아직 안 졸린데요. 오빠도 괜찮으면 조금만 더 얘기할래요?'},
+  {num:'EPISODE 03',title:'옆집 문이 닫히기 전에',description:'함께 저녁을 보낸 날. 유나는 문고리를 잡고도 비밀번호를 누르지 않은 채 잠시 그를 바라본다.',quote:'한유나: 오늘은 문 닫고 들어가면… 조금 아쉬울 것 같아요. 오빠는요?'}
+];
+function show(i){
+  const e=episodes[i];
+  for(const k of ['num','title','description','quote']) document.getElementById(k).textContent=e[k];
+  document.querySelectorAll('[data-ep]').forEach(b=>b.setAttribute('aria-selected',String(Number(b.dataset.ep)===i)));
+}
+document.querySelectorAll('[data-ep]').forEach(b=>b.addEventListener('click',()=>show(Number(b.dataset.ep))));
+show(0);
+document.querySelectorAll('.visit-links a').forEach(a=>a.addEventListener('click',e=>{
+  if(a.getAttribute('href').startsWith('YOUR_')){
+    e.preventDefault();
+    alert('해당 작품 페이지는 준비 중입니다.');
+  }
+}));
+</script>
+</body>
+</html>
